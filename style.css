@@ -11,7 +11,7 @@ body{
     height: 100vh;
     align-items: center;
     text-align: center;
-    background-color: brown;
+    background: url(./person-climbing.jpg) no-repeat center center/ cover;
 }
 .container{
     display: flex;
@@ -22,10 +22,10 @@ body{
 }
 .header{
     font-size: 1.2rem;
-    background-color: brown;
-    color: white;
+    background-color: #99d6ff;
+    opacity: 0.8;
+    color: black;
     padding: 5px 20px;
-    border: 1px white solid;
     margin: 20px auto;
     border-radius: 5px;
 }
@@ -33,6 +33,7 @@ body{
     width: 100%;
     height: auto;
     background-color: white;
+    opacity: 0.6;
     border-radius: 15px;
     padding: 50px 40px;
     box-shadow: 5px 0 10px;
